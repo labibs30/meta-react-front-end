@@ -9,6 +9,7 @@ function App(props) {
       <Heading title="Hello from Heading" />
       <Main title="Hello from Main" />
       <Sidebar makhluk="Hello from Sidebar" />
+      <Main title="Hello from Main" />
     </div>
   );
 }
