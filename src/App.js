@@ -3,6 +3,9 @@ import "./App.css";
 import Heading from "./components2/Heading";
 import Main from "./components2/Main";
 import Sidebar from "./components2/Sidebar";
+import Bag from "./components2/Bag";
+import Apple from "./components2/Apples";
+import Pearl from "./components2/Pearl";
 function App(props) {
   return (
     <div className="flex flex-row">
@@ -10,6 +13,11 @@ function App(props) {
       <Main title="Hello from Main" />
       <Sidebar makhluk="Hello from Sidebar" />
       <Main title="Hello from Main" />
+      <Bag children={<Apple color="yellow" number="5" />} />
+      <Bag>
+        <Apple color="red" number="10" />
+        <Pearl color="green" number="15" />
+      </Bag>
     </div>
   );
 }
