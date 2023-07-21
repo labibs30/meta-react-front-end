@@ -1,3 +1,4 @@
+import "../App.css";
 function Apples(props) {
   return (
     <div className="promo-section">

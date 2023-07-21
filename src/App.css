@@ -27,7 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.promo-section {
+  font-weight: bold;
+  line-height: 20px;
+  color: blue;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

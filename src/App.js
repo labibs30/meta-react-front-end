@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import Heading from "./components2/Heading";
 import Main from "./components2/Main";
 import Sidebar from "./components2/Sidebar";
@@ -14,10 +14,11 @@ function App(props) {
       <Sidebar makhluk="Hello from Sidebar" />
       <Main title="Hello from Main" />
       <Bag children={<Apple color="yellow" number="5" />} />
-      <Bag>
+      <Bag className="promo-section">
         <Apple color="red" number="10" />
         <Pearl color="green" number="15" />
       </Bag>
+      <p className="promo-section">halo</p>
     </div>
   );
 }
