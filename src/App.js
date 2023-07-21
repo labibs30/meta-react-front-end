@@ -1,15 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Heading from "./Heading";
-
-function Header() {
-  return <h1>Hello World</h1>;
-}
-function App() {
+import Heading from "./components2/Heading";
+import Main from "./components2/Main";
+import Sidebar from "./components2/Sidebar";
+function App(props) {
   return (
-    <div>
-      <Heading />
-      <Header />
+    <div className="flex flex-row">
+      <Heading title="Hello from Heading" />
+      <Main title="Hello from Main" />
+      <Sidebar makhluk="Hello from Sidebar" />
     </div>
   );
 }
